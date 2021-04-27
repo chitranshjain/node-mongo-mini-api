@@ -4,7 +4,7 @@ const Product = require("./models/product");
 
 mongoose
   .connect(
-    "mongodb+srv://admin:admin@cluster0.kdy5e.mongodb.net/products_test?retryWrites=true&w=majority"
+    "YOUR_MONGODB_ATLAS_URI"
   )
   .then(() => {
     console.log("Successfully connected to the database");
