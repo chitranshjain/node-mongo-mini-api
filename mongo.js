@@ -1,7 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 
 const url =
-  "mongodb+srv://admin:admin@cluster0.kdy5e.mongodb.net/products_test?retryWrites=true&w=majority";
+  "YOUR_MONGODB_ATLAS_URI";
 
 const createProduct = async (req, res, next) => {
   const newProduct = {
